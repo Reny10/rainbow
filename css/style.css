@@ -1,0 +1,265 @@
+body {	
+ font-family: tahoma;
+ margin:0;
+ padding:0;
+ color:#62747e;
+ font-size:12px; 
+ width:100%; 
+ background:url(../images/background.jpg) #fff; 
+ background-repeat:repeat-x;
+ text-align:left;                
+ }
+
+a {
+color:#38adbb;
+text-decoration:none;
+}
+
+a:hover {
+color:#000;
+}
+
+.drzac {
+width:720px;
+position:relative;
+margin:50px auto 0px auto;
+}
+
+.drzac:after {
+clear:both;
+content:'.';
+display:block;
+visibility:hidden;
+line-height:0px;
+height:0px;
+}
+
+.izbornik {
+width:720px;
+float:left;
+text-align:right;
+color:#fff;
+}
+
+.izbornik a {
+display:block;
+float:right;
+width:auto;
+height:25px;
+color:#fff;
+text-decoration:none;
+text-align:center;
+font-size:16px;
+margin-right:10px;
+}
+
+.izbornik a:hover {
+color:#000;
+}
+
+.logo {
+width:720px;
+height:150px;
+float:left;
+margin-top:20px;
+background:url(../images/logo.jpg);
+}
+
+.sadrzaj{
+margin-top:20px;
+float:left;
+}
+
+.lijevo {
+float:left;
+width:140px;
+background:#38adbb;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px 10px 10px 20px;
+color:#fff;
+}
+
+.lijevo:after {
+clear:both;
+content:'.';
+display:block;
+visibility:hidden;
+line-height:0px;
+height:0px;
+}
+
+.lijevo a{
+color:#fff;
+text-decoration:none;
+float:left;
+display:block;
+height:15px;
+width:130px;
+
+}
+.lijevo  a:hover {
+color:#000;
+}
+
+.lijevo_header {
+margin-top:10px;
+display:block;
+float:left;
+}
+
+.desno {
+float:left;
+width:540px;
+margin-left:10px;
+padding:0px 0px 0px 0px;
+text-align:justify;
+/*border:1px solid #000;*/
+}
+
+.desno_header {
+font-size:16px;
+font-weight:900;
+}
+.slike  img{
+margin-top:60px;
+margin-right:4px;
+}
+
+.sadrzaj_desno {
+/*border:1px solid #000;*/
+}
+
+.linkovi_ponuda {
+float:left;
+width:150px;
+}
+
+.linkovi_ponuda  a{
+color:#38adbb;
+text-decoration:none;
+float:left;
+display:block;
+height:15px;
+width:150px;
+}
+
+.linkovi_ponuda  a:hover{
+color:#000;
+}
+
+.footer {
+width:720px;
+height:12px;
+margin:auto;
+margin-top:20px;
+padding:0px;
+padding-top:12px;
+margin-bottom:20px;
+}
+
+.footer_copy {
+float:left;
+width:320px;
+}
+
+.footer_linkovi {
+width:400px;
+float:left;
+text-align:right;
+}
+
+.footer_linkovi a{
+color:#38adbb;
+
+}
+.footer_linkovi a:hover{
+color:#62747e;
+}
+
+/* #38adbb*/
+.textarea{
+width:270px;
+height:100px;
+border:1px solid #38adbb;
+}
+
+input[type="text"]{
+width:180px;
+height:15px;
+border:1px solid #38adbb;
+}
+
+.s1{
+
+	height: 150px;
+	width: 200px;
+	position: absolute;
+	margin: 30px;
+	padding: 20px;
+	border: thin solid #BCE8EC;
+	left: 180px;
+	top: 190px;
+	}
+	
+.s2{
+	height: 150px;
+	width: 200px;
+	position: absolute;
+	margin: 30px;
+	padding: 20px;
+	border: thin solid #BCE8EC;
+	left: 450px;
+	top: 190px;
+	}
+	
+.s3{
+	height: 150px;
+	width: 200px;
+	position: absolute;
+	margin: 30px;
+	padding: 20px;
+	border: thin solid #BCE8EC;
+	left: 180px;
+	top: 400px;
+   }
+
+.s4{
+	height: 150px;
+	width: 200px;
+	position: absolute;
+	margin: 30px;
+	padding: 20px;
+	border: thin solid #BCE8EC;
+	left: 450px;
+	top: 400px;
+}
+
+.tablicakonc{
+border:2px solid #BCE8EC;
+border-collapse:collapse;
+margin-left:50px;
+}
+	
+.td{
+border:1px solid #BCE8EC;
+}
+
+.tdb{
+border:1px solid #BCE8EC;
+width:100px;
+height:25px;
+}
+
+.th{
+text-align:center;
+border:1px solid #BCE8EC;
+width:100px;
+height:25px;
+}
+
+.tablica2{
+border:2px solid #BCE8EC;
+border-collapse:collapse;
+}

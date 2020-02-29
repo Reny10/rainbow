@@ -1,0 +1,75 @@
+body {						/* deklaracija body elementa */
+	background:#c0c0c0;		/* pozadinska boja */
+	}
+
+.drzac {						/* deklaracija drzaca */
+	position: relative;		/* relativno pozicioniranje*/
+	border: solid thin;		/* odredjivaje okvira da se vidi drzac*/
+	width: 720px;			/* sirina drzaca*/
+	margin:auto;			/* centriranje drzaca*/
+	}
+
+.drzac:after {				/* after kontorla za drzac - pojavljivanje nekog sadrzaja nakon drzaca*/
+	content: '.'; 			/* sadrzaj koji se pojavljuje */
+	display: block; 		/* postavljanje displaya na block*/
+	clear: both; 			/* nedozvoljavanje float elemenata da se pojavlju van drzaca, ni lijevo ni desno*/
+	visibility: hidden;		/* skrivanje vidljivosti*/ 
+	height: 0px; 			/* visina blocka koji se pojavljuje nakon drzaca */
+	line-height: 0px;		/* visina linije blocka koji se pojavljuje nakon drzacaS */
+	}
+
+.center {					/* deklaracija klase center */
+	text-align:center;		/* centriranje teksta */
+	margin-top:10px;		/* margina od vrha*/
+	}
+
+.okvir {
+	width:600px;			/* širina okvira (iframe)*/
+	height:580px;			/* visina okvira */
+	margin-left:60px;		/* margina lijevo*/
+	margin-top:10px;		/* margina od vrha*/
+	margin-bottom:10px;		/* margina od dna*/
+	}
+.imageholder {				/* držaè slika unutar galxx.html datoteka*/
+width:588px;				/* širina držaèa odreðeno prema širini iframe okvira*/
+margin:auto;				/* centriranje*/
+text-align:center;			/* centriranje sadržaja*/
+}	
+.strelice {					/* deklaracija držaèa strelica */
+position:relative;			/* relativno pozicioniranje */
+height:112px;				/* visina */
+}
+
+.left {						/* deklaracija za lijevu strelicu*/
+	float:left;				/* poravnavanje lijevo*/
+	width:100px;			/* širina */
+	height:112px;			/* visina */
+	display:block;			/* prikaz kao block*/
+	background:url(../images/arrows.png);	/* pozdainska slika*/
+	}
+.left:hover {										/* hover kontrola klase left (lijeva strelica)*/
+	background:url(../images/arrows.png) 0px 112px;	/* pozadinska slika, pomak 0px po X  i 112px po Y osi */
+	}
+
+.right {				/* deklaracija za desnu strelicu*/
+	float:right;	/* poravnavanje desno*/
+	width:100px;	/* širina */	
+	height:112px;	/* visina */
+	display:block;	/* prikaz kao block*/
+	background:url(../images/arrows.png) 100px 0px;	/* pozadinska slika, pomak 100px po X  i 0px po Y osi */
+	}
+.right:hover {		/* hover kontrola klase right (desna strelica)*/
+	background:url(../images/arrows.png) 100px 112px;	/* pozadinska slika, pomak 100px po X  i 112px po Y osi */
+	}
+
+.slika {					/* deklaracija držaèa slika */
+	position:relative;	/* relativno pozicioniranje*/
+	display:block;		/* block prikaz*/
+	top:10px;			/* pomak od vrha 10px*/
+	}
+
+.slika img {				/* deklaracija za IMG tagove unutar klase slika*/
+	max-width:580px;	/* odreðivanje maximalne širine slike bez obzira na njenu orginalnu velièinu*/
+	max-height:440px;	/* odreðivanje maximalne visine slike bez obzira na njenu orginalnu velièinu*/
+	border:2px groove #F0F0F0;	/* okvir slike */
+	}
